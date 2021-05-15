@@ -10,16 +10,26 @@ using namespace std;
 int main()
 {
 
-    //Variables
-    int numero = 1; //Numeros enteros
+    int edad;
+    string nombre;
 
-    float pi = 3.14; //Numeros con coma
+    cout << "Ingrese su nombre" << endl;
+    cin >> nombre;
+    cout << "Ingrese su edad" << endl;
+    cin >> edad;
 
-    bool verdadero = true; // Valores Verdaderos (True) y Falsos (False)
+    cout<< "Tu nombre es " << nombre << ", y tu edad es " << edad << " años." << endl;
 
-    string miNombre = "Octavio"; //Variables con cadena de texto
-
-    cout << miNombre << endl; // Cout para imprimir en consola
-    cout << "Hola mundo" << endl;
     return 0;
 }
+
+/*
+Tipos de variables
+INT - Enteros
+FLOAT - Numeros con comas
+STRING - Cadenas de texto
+BOOL - Verdadero Falso
+
+Cout - Salida de datos
+Cin - Entrada de datos
+*/
