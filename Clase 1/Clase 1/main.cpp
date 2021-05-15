@@ -1,6 +1,12 @@
+/*
+Segunda Clase de C++
+Documentacion: http://webdiis.unizar.es/asignaturas/PROG1/doc/materiales/sintaxis_cpp.pdf
+*/
+
+
 #include <iostream>
 using namespace std;
-//Comentario
+
 int main()
 {
 
