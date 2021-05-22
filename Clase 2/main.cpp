@@ -12,15 +12,15 @@ int main()
 
     cout<<"Hola mundo";
 
-    // int edad;
-    // string nombre;
+    int edad;
+    string nombre;
 
-    // cout << "Ingrese su nombre" << endl;
-    // cin >> nombre;
-    // cout << "Ingrese su edad" << endl;
-    // cin >> edad;
+    cout << "Ingrese su nombre" << endl;
+    cin >> nombre;
+    cout << "Ingrese su edad" << endl;
+    cin >> edad;
 
-    // cout<< "Tu nombre es " << nombre << ", y tu edad es " << edad << " a�os." << endl;
+    cout<< "Tu nombre es " << nombre << ", y tu edad es " << edad << " a�os." << endl;
 
     return 0;
 }
