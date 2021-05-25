@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
 
-    cout<<"Hola mundo";
+    cout<<"Hola mundo" << endl;
 
     int edad;
     string nombre;
@@ -20,7 +20,7 @@ int main()
     cout << "Ingrese su edad" << endl;
     cin >> edad;
 
-    cout<< "Tu nombre es " << nombre << ", y tu edad es " << edad << " a�os." << endl;
+    cout<< "Tu nombre es " << nombre << ", y tu edad es " << edad << endl;
 
     return 0;
 }
