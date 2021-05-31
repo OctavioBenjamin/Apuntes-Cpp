@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1622396173 source:c:\users\octav\desktop\cpp oia\a-ejercicios\calculandofiguras\main.cpp
+	<iostream>
+	<math.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1622309471 source:c:\users\octav\desktop\cpp oia\a-ejercicios\ordenando_3_numeros\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+
