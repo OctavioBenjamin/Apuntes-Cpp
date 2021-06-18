@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1623888087 source:c:\users\octav\desktop\cpp oia\a-ejercicios\sumadeposicionesenvector\main.cpp
+	<iostream>
+	<vector>
+

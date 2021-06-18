@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1623985362 source:c:\users\octav\desktop\cpp oia\a-ejercicios\de_int_a_str\main.cpp
+	<iostream>
+	<algorithm>
+
