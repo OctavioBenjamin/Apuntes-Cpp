@@ -1,0 +1,105 @@
+Estructuras de datos 
+        Son estructuras que sirven para el manejo y la organizacion de 
+        la informacion con mayor facilidad, comodidad y eficiencia.
+
+-----------------------------------------------------------------------------------
+     Anidacion
+            Se habla de anidacion cuando los elementos de una estructura, son a su vez otra estructura
+
+            Ejemplo: una matriz = {[vector1], [vector2], [vector3]}  
+
+                //Declaracion
+                    vector <vector <int> > matriz(N, vector<int>, (M,O)); 
+
+                //Metodos
+                    matriz.size() 
+                    matriz[0].size()
+                    matriz[i][j]
+
+                    sort(matriz.begin(),matriz.end())
+                    sort(matriz[i].begin(),matriz[i].end())
+
+                    reverse(matriz.begin().matriz.end())
+                    reverse(matriz[i].begin().matriz[i].end())
+
+                vector <vector <int> > matriz = {
+                    [1, 2, 3, 4],
+                    [1, 2, 3, 4, 5, 6],
+                    [1, 2, 3, 4, 5, 6, 7, 8]
+                };
+-----------------------------------------------------------------------------------
+    Orden De una fila o cola
+
+        Orden FIFO
+            First in, first out (Primero en entrar, primero en salir)
+                Esta idea se implementa en la estructura QUEUE (cola)
+
+            //Declaracion
+                queue <int> Q;
+
+            //Metodos
+
+                Q.empty();  Indica si no hay elementos en la cola
+                Q.size();   Cantidad de elementos
+                Q.push(x);  Agrega X al principio de la cola
+                Q.front();  Nos devuelve el elemento final de la cola
+                Q.pop();    Elimina el elemento final
+
+-----------------------------------------------------------------------------------
+
+    Cola de prioridad
+
+        Elementos Prioritarios
+            El orden de atencion depende de la importancia. Existe un orden de prioridad
+
+            En C++ esta idea esta implementada en priorty_queue
+
+        Conetido
+            priority_queue <int> PQ;
+
+            PQ.empty();  Indica si no hay elementos
+            PQ.size();   Nos da la cantidad de elementos
+            PQ.push(x);  Agrega X a PQ
+            PQ.top();    Nos devuelve el mayor elemento
+            PQ.pop();    Elimina el mayor elemento 
+
+-----------------------------------------------------------------------------------
+
+    Set
+
+        Conjuntos
+            Entendemos por conjuntos el tener varios elementos sin importar su orden
+            y sin contar repetidos
+
+            Ejemplo: 
+                {1,2,3}
+                {3,2,1}
+                {1,1,1,1,2,3}
+
+        Metodos
+            set<int> S;
+
+            S.empty();              Indica si no hay Elementos
+            S.size();               Nos indica la cantidad de elementos
+            s.insert(x);            Agrega X al conjunto
+            (S.find(x)!=S.end());   Indica si X esta en el conjunto
+            S.erase(x);             Elimina x del conjunto
+            (*S.begin());           Indica el valor mas chico
+
+-----------------------------------------------------------------------------------
+
+    Map
+
+        Mapear es similar a lo que entendemos como funcion
+        Es asignar a cada elemento de un conjunto, un elemento de otra conjunto
+
+        Metodos
+            map<string,int> M;      El map comienza vacio
+            M.empty();              Nos indica si no hay elementos en el map
+            M.size();               Nos da la cantidad de elementos en el map
+            M[x];                   Nos permite acceder a la posicin x del map
+            (M.find(x)!=M.end());   Indica si x es llave en el map
+            M.erase(x);             Elimina la posicion con llave x del map 
+
+-----------------------------------------------------------------------------------
+        
