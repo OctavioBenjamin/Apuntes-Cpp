@@ -1,0 +1,61 @@
+GRAFOS
+
+    Conjunto de objetos llamados nodos unidos por enlaces llamados aristas que representan una relacion
+    binaria
+    Orden: Cantidad de nodos
+
+    Grafo dirigido
+        Las aristas tienen un sentido definido desde nodo de origen a nodo de destindo
+    
+    Grafo no dirigido
+        Representan relaciones simetricos sin sentido definido
+
+    Vecino y Grado
+        A es vecino de B si tenemos una arista que une a los dos
+
+        La cantidad de vecinos de A se llama grado de A
+            Se divide en grado de entrada o grado de salida
+
+    Camino y Distancia
+        Camino: Sucesion de vertices y aristas dentro de un Grafo que empieza y termina en vertices
+
+    Bucle y Ciclo
+        Bucle es una arista que conecta un vertice consigo misma
+
+        Ciclo: Camino donde el origen es igual al destino
+
+
+    No menos importante...
+
+    Grafo Bipartito
+        Grafo que puede dividirse en 2
+        Las aristas unen los vertices de un conjunto con los vertices del otro
+
+    Subgrafo
+        Grafo con vertices y aristas que son un subcvonjunto de un grafo padre
+
+    Grafo conexo
+        Todos los vertices estan conectados por un Camino
+    Grafo no conexo
+        Algunos graficos no se conectan
+
+    ALGORITMOS PARA RECORRER GRAFOS
+
+        BFS 
+            Busqueda en anchura: Recorre el grafo y calcula la minima distancia desde un nodo a cada uno de los demas
+
+            Pasos:
+                - Comienza en un nodo y se explora sus vecinos
+                - Para cada uno de los vecinos (que no esten ya visitados), se exploran sus vecinos 
+                - Y asi sucesivamente...
+
+        DFS
+            Busqueda en profundidad: Recorre todos los nodos de un grafo de manera ordenada
+
+            Expande cada nodo que va a localizando en un camino en concreto
+
+            Cuando ya no quedan vecinos por visitar, retorna y repite el proceso por cada hermano del nodo visitados
+
+
+            
+
