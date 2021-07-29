@@ -1,0 +1,17 @@
+(Ver grafos ponderados en Grafos.pdf)
+
+Dijkstra 
+    Determina el camino más corto desde un vértice hacia el resto cuando las aristas tienen peso.
+
+    ¿Cómo funciona?
+
+        La distancia al nodo origen es 0.
+
+        Se procesan todos los nodos eligiendo 
+        el que tiene menor distancia al origen
+
+        En cada vecino actualizamos la distancia 
+        solamente si la nueva distancia es menor a 
+        la que tenía guardada
+
+    (Ver Grafos.pdf para ver el ejemplo)
